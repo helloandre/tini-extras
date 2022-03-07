@@ -1,0 +1,22 @@
+{
+  "name": "@helloandre/tini-extras",
+  "version": "0.1.0",
+  "description": "Extra utilities for @helloandre/tini",
+  "main": "dist/index.js",
+  "repository": "github.com/helloandre/tini-extras",
+  "author": "Andre Bluehs <hello@andre.blue>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -d",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0"
+  }
+}
